@@ -22,7 +22,10 @@
   "postCreateCommand": "apt-get install gnucobol -y",
   "customizations": {
     "vscode": {
-      "extensions": ["bitlang.cobol"]
+      "extensions": [
+		"bitlang.cobol",
+		"bitlang.cobol-themes"
+	]
     }
   }
 
