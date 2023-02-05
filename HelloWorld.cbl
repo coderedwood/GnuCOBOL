@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. TEST.
+       PROGRAM-ID. HelloWorld.
        
 
 
@@ -11,5 +11,5 @@
        0100-START-HERE.
            DISPLAY "Hello World".
        STOP RUN.
-       END PROGRAM TEST.
+       END PROGRAM HelloWorld.
        
