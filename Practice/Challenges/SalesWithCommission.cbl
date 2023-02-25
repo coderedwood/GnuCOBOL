@@ -1,9 +1,10 @@
        IDENTIFICATION DIVISION.
        PROGRAM-ID. SALESWITHCOMMISSION.
-       AUTHOR.     PEGGY FISHER.
+       AUTHOR.     DWAYNE REDWOOD.
       ***************************************************************
       *  This program reads a file containing sales person yearly   *
       *   sales information and prints a report.                    *
+      *  Base code provided by Peggy Fisher for challenge           *
       ***************************************************************
 
        ENVIRONMENT DIVISION.
@@ -126,7 +127,7 @@
         01  COMMTOTAL-LINE.
             05 FILLER               PIC X(47)  VALUE SPACES.
             05 FILLER               PIC X(19)  VALUE
-            "Total Commissions: ".
+            "TOTAL COMMISSIONS: ".
             05 TOTAL-COMMISSIONS    PIC $$$,$$$,$$$.
       *      05 FILLER               PIC X(64)  VALUE SPACES.
         
