@@ -19,13 +19,10 @@
   // Configure tool-specific properties.
   // "customizations": {},
 
-  "postCreateCommand": "apt-get install gnucobol -y",
+  // "postCreateCommand": "apt-get install gnucobol -y",
   "customizations": {
     "vscode": {
-      "extensions": [
-		"bitlang.cobol",
-		"bitlang.cobol-themes"
-	]
+      "extensions": ["bitlang.cobol", "bitlang.cobol-themes"]
     }
   }
 
